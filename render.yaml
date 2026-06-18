@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: part2-brutal-bomber
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python brutal_bomber_part2_render.py
